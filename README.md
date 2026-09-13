@@ -169,7 +169,8 @@ Relationships: `Dim Product[Product ID]` → `Fact Sales[Product ID]` (1:*), `Di
 1. Clone or download the repo.
 2. Open `dashboard/Sales_Profit_Analysis_Dashboard.pbix` in Power BI Desktop.
 3. Use the slicers on the left panel to filter by Ship Mode, Segment, Category, Month, and Year.
-4. Read [`Documentation.md`](./Documentation.md) for the full analysis write-up, cleaning steps, and insights.
+4. Read [`Documentation.md`](https://github.com/DRasool7013/Sales-Profit-Analysis-Dashboard/blob/main/Documentation%20(1).md).)
+ for the full analysis write-up, cleaning steps, and insights.
 
 ## 👤 Author
 Feel free to connect or raise an issue if you have suggestions for improving this dashboard.
