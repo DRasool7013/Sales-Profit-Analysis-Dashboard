@@ -67,7 +67,7 @@ Star schema with one fact table and three dimension tables.
 
 **Physical data model (as built in Power BI):**
 
-![Physical Data Model](model/physical-data-model.png)
+![Physical Data Model](https://github.com/DRasool7013/Sales-Profit-Analysis-Dashboard/blob/main/Physical_Datamodel.png)
 
 | **Fact Sales** | Order ID, Order Date, Customer ID, Product ID, Ship Mode, Sales, Quantity, Discount, Profit |
 | **Dim Product** | Product ID, Product Name, Category, Sub-Category |
