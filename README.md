@@ -63,7 +63,7 @@ Star schema with one fact table and three dimension tables.
 
 **Conceptual model:**
 
-![Conceptual Model](model/conceptual-model.png)
+![Conceptual Model](https://github.com/DRasool7013/Sales-Profit-Analysis-Dashboard/blob/main/Conceptual_Model.png)
 
 **Physical data model (as built in Power BI):**
 
