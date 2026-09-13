@@ -53,7 +53,7 @@ To build a two-page executive dashboard that helps stakeholders quickly answer:
 - What is the average discount per category, and how does it impact profit?
 - Which cities/states generate the highest sales?
 
-(Full breakdown of answers is in [`Documentation.md`](./Documentation.md).)
+(Full breakdown of answers is in [`Documentation.md`](https://github.com/DRasool7013/Sales-Profit-Analysis-Dashboard/blob/main/Documentation%20(1).md).)
 
 ---
 
