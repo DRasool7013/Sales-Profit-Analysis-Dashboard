@@ -61,6 +61,54 @@ The dataset is a flat transactional export of a fictional retail superstore's or
 7. **Relationships**: Connected each dimension table to `Fact Sales` on its key column (1-to-many, single-direction filtering).
 8. **Measures (DAX)**: Built explicit measures for all KPIs (`Total Sales`, `Total Profit`, `Total Customers`, `Total Orders`, `Total Products`) plus supporting measures for Profit Margin % and month-over-month sales comparison.
 
+## 🧮 DAX Measures
+
+All measures were created in the `Fact Sales` table.
+
+```DAX
+Total Sales = SUM ( 'Fact Sales'[Sales] )
+
+Total Profit = SUM ( 'Fact Sales'[Profit] )
+
+Total Orders = DISTINCTCOUNT ( 'Fact Sales'[Order ID] )
+
+Total Customers = DISTINCTCOUNT ( 'Fact Sales'[Customer ID] )
+
+Total Products = DISTINCTCOUNT ( 'Fact Sales'[Product ID] )
+
+Avg Discount = AVERAGE ( 'Fact Sales'[Discount] )
+
+Profit Margin % = DIVIDE ( [Total Profit], [Total Sales], 0 )
+
+Current Month Sales =
+CALCULATE (
+    [Total Sales],
+    FILTER (
+        ALL ( 'Dim Calender' ),
+        'Dim Calender'[Month] = MAX ( 'Dim Calender'[Month] )
+            && 'Dim Calender'[Year] = MAX ( 'Dim Calender'[Year] )
+    )
+)
+
+Previous Month Sales =
+CALCULATE (
+    [Total Sales],
+    DATEADD ( 'Dim Calender'[Date], -1, MONTH )
+)
+```
+
+`Dim Calender` was generated as a standalone date table so that time intelligence functions (`DATEADD`, `ALL`) work correctly:
+
+```DAX
+Dim Calender =
+ADDCOLUMNS (
+    CALENDAR ( MIN ( 'Fact Sales'[Order Date] ), MAX ( 'Fact Sales'[Order Date] ) ),
+    "Month", FORMAT ( [Date], "MMMM" ),
+    "Quarter", "Q" & QUARTER ( [Date] ),
+    "Year", YEAR ( [Date] ),
+    "Weekday", FORMAT ( [Date], "dddd" )
+)
+```
 ---
 
 ## 4. Final Result
