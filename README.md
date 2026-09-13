@@ -2,7 +2,7 @@
 
 An interactive Power BI dashboard built on the **Sample Superstore** dataset to analyze sales performance, profitability, and customer behavior across regions, segments, and product categories.
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Power BI](https://github.com/DRasool7013/Sales-Profit-Analysis-Dashboard/blob/main/Sales%20%26%20Profit-Analysis_Dashboard.pbix)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ---
