@@ -16,7 +16,7 @@ The dashboard is designed to be filtered live via **Ship Mode**, **Segment**, **
 
 ## 2. Dataset Description
 
-**Source file:**[Sample_Superstore_raw_table.xls](DOCUMENTATION.md)**.
+**Source file:**[Sample_Superstore_raw_table.xls](https://github.com/DRasool7013/Sales-Profit-Analysis-Dashboard/blob/main/Sample%20-%20Superstore_raw_table.xls)**.
 
 
 The dataset is a flat transactional export of a fictional retail superstore's orders, with one row per order line item.
