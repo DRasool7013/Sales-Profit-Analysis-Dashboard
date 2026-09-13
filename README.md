@@ -39,7 +39,7 @@ Sales-Profit-Analysis-Dashboard/
 - KPI cards, regional sales, profit by segment, current vs. previous month sales, sales by segment/category, top 10 products
 
 ### Page 2 — Trends & Performance
-![Trends & Performance Page](dashboard/page2-trends-performance.png)
+![Trends & Performance Page](https://github.com/DRasool7013/Sales-Profit-Analysis-Dashboard/blob/main/Dashboard-Page2_Trends%20%26%20Performance.png)
 - Profit by category, sales by state, orders & profit by region, avg. discount vs. profit margin, sales trend by quarter/year
 
 ---
