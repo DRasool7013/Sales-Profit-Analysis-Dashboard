@@ -35,7 +35,7 @@ Sales-Profit-Analysis-Dashboard/
 ## 🖼️ Dashboard Preview
 
 ### Page 1 — Overview
-![Overview Page](dashboard/page1-overview.png)
+![Overview Page](https://github.com/DRasool7013/Sales-Profit-Analysis-Dashboard/blob/main/Dashboard-Page1_Overview.png)
 - KPI cards, regional sales, profit by segment, current vs. previous month sales, sales by segment/category, top 10 products
 
 ### Page 2 — Trends & Performance
