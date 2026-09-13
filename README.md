@@ -61,19 +61,14 @@ To build a two-page executive dashboard that helps stakeholders quickly answer:
 
 Star schema with one fact table and three dimension tables.
 
-**Conceptual Model**
+**Conceptual model:**
 
-```
-              Dim Product
-                  ▲
-                  │
-Dim Customer ── Fact Sales ── Dim Calender
-```
+![Conceptual Model](model/conceptual-model.png)
 
-**Physical Model**
+**Physical data model (as built in Power BI):**
 
-| Table | Key Fields |
-|---|---|
+![Physical Data Model](model/physical-data-model.png)
+
 | **Fact Sales** | Order ID, Order Date, Customer ID, Product ID, Ship Mode, Sales, Quantity, Discount, Profit |
 | **Dim Product** | Product ID, Product Name, Category, Sub-Category |
 | **Dim Customer** | Customer ID, Customer Name, Segment, City, State, Region, Country |
