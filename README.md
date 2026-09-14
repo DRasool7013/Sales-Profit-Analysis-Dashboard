@@ -173,4 +173,6 @@ Relationships: `Dim Product[Product ID]` → `Fact Sales[Product ID]` (1:*), `Di
  for the full analysis write-up, cleaning steps, and insights.
 
 ## 👤 Author
-Feel free to connect or raise an issue if you have suggestions for improving this dashboard.
+**D. Alla Rasool**
+📧 rasoolpinjari0@gmail.com
+🔗 [LinkedIn](www.linkedin.com/in/drasool7663) • [Portfolio](#)
